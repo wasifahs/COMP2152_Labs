@@ -95,7 +95,9 @@ for numbers, target in test_cases:
 # ============================================
 # Question 3: Shuffle the Array
 # ============================================
-
+print("\n" + "=" * 50)
+print("Question 3: Shuffle the Array")
+print("=" * 50)
 
 def shuffle_array(nums, n):
     # Step 1: Split into two halves using slicing
@@ -136,7 +138,9 @@ for nums, n in test_cases:
 # ============================================
 # Question 4: First Unique Character
 # ============================================
-
+print("\n" + "=" * 50)
+print(" Question 4: First Unique Character")
+print("=" * 50)
 def count_characters(s) :
     counts = {}
     for char in s:
